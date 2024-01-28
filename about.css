@@ -1,0 +1,33 @@
+.about {
+display: flex;
+gap: 50px;
+width: 80%;
+margin:50px auto ; 
+}
+.about img {
+width: 400px;
+height: 200px;
+
+}
+.about button {
+    width: 200px;
+    height: 44px;
+    background: #2748F4;
+    color: white;
+}
+
+.about button:hover {
+    transition: 0.25s;
+    background: #8ea1ff;
+    color: white;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+}

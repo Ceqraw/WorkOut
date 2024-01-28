@@ -1,0 +1,85 @@
+.main_intro {
+    background-image: url(images/courses/High_resolution_wallpaper_background_ID_77701968456-1024x585\ 1gantels.png);
+    height: 700px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+
+
+.main_intro .content {
+
+    text-align: center;
+}
+
+.main_intro h1 {
+    font-size: 60px;
+}
+
+.main_intro p {
+    margin-top: 70px;
+
+}
+
+.main_intro button {
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 200px;
+    height: 44px;
+    background: #D9D9D9;
+    margin-top: 20px;
+
+}
+
+
+.main_intro button:hover {
+    transition: 0.25s;
+    background-color: #a3a3a3;
+    color: #1e1b1b;
+}
+
+.course {
+    display: flex;
+    width: 80%;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    align-items: center;
+    gap: 50px;
+    margin: 30px auto;
+}
+
+.course p {
+    width: 50%;
+
+}
+
+.course button {
+    width: 200px;
+    height: 44px;
+    background: #2748F4;
+    color: white;
+}
+
+.course button:hover {
+    transition: 0.25s;
+    background: #8ea1ff;
+    color: white;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+}
