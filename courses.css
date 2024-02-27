@@ -71,7 +71,24 @@
     color: white;
 }
 
+.block {
+    background-color: aliceblue;
+    width: 80%;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 30px;
 
+}
+
+
+.block img {
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+    shape-outside: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+}
 
 
 
@@ -83,3 +100,38 @@ footer {
     align-items: center;
     justify-content: space-around;
 }
+
+@media (max-width:955px) {
+
+    .course img {
+        width: 50%;
+
+    }
+
+
+}
+
+@media (max-width:700px) {
+    .main_intro {
+        height: 400px;
+        padding-top: 70px;
+    }
+
+    .main_intro h1 {
+        font-size: 35px;
+    }
+
+    .course {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .course p {
+        width: 100%;
+    
+    }
+    .main_intro p {
+        margin-top: 20px;
+    
+    }
+}
+

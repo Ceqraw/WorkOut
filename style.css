@@ -29,7 +29,7 @@
     border-radius: 30px;
     width: 150px;
     padding: 5px;
-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .sop {
@@ -47,7 +47,7 @@ color: rgb(255, 255, 255);
 .function {
 
     width: 400px;
-    height: 400px;
+    min-height: 400px;
     background-color: #FBF5F5;
     padding: 25px;
     text-align: center;
@@ -106,7 +106,6 @@ color: rgb(255, 255, 255);
 .gantel .watch {
     background-color: #006CBA;
     width: 150px;
-
     border-radius: 20px;
     padding: 10px;
 }
@@ -118,4 +117,74 @@ footer {
     height: 250px;
     align-items: center;
     justify-content: space-around;
+}
+
+@media (max-width:1150px) {
+    .functions {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .function {
+
+        width: 70%;
+    }
+
+    .function img {
+        height: 300px;
+        width: 90%;
+    }
+
+
+
+}
+
+
+@media (max-width:900px) {
+    .functions {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .sop h1 {
+        text-align: center;
+
+    }
+
+    .gantel p {
+        font-size: 20px;
+
+    }
+
+}
+
+@media (max-width:700px) {
+    .main_intro {
+
+        height: 400px;
+    }
+
+    .main_intro h1 {
+        font-size: 35px;
+
+    }
+
+    .gantel h1 {
+        font-size: 30px;
+
+    }
+
+    .gantel {
+        height: 400px;
+        padding-top: 80px;
+    }
+}
+@media (max-width:500px) {
+.function img {
+height: 150px;
+
+}
+
 }
